@@ -43,7 +43,7 @@ Deno.serve(async (req: Request) => {
 
     const { data: newUser, error: createError } = await adminClient.auth.admin.createUser({
       email: 'Sangammagicbus@gmail.com',
-      password: 'SangamMagicbus',
+      password: 'Sangammagicbus@gmail.com',
       email_confirm: true,
     });
 
